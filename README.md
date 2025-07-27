@@ -43,11 +43,11 @@ The focus of this assignment is to practice writing **JUnit tests** for simple J
   Confirms that a `Person` instance is created with the correct properties.
 
 - tests for getters and setters like:
-  `canGetName`  
-  Checks whether the getter returns the correct name value.
+  - `canGetName`  
+     Checks whether the getter returns the correct name value.
 
-  `canSetName`  
-  Ensures the setter updates the name property properly.
+  - `canSetName`  
+     Ensures the setter updates the name property properly.
 
 ---
 
