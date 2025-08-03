@@ -12,6 +12,7 @@ The focus of this assignment is to practice writing **JUnit tests** for simple J
 
 - [Tech Stack](#tech-stack)
 - [Key Features](#key-features)
+- [How to Run](#how-to-run)
 - [How to Run Tests](#how-to-run-tests)
 - [Credits](#credits)
 - [License](#license)
@@ -51,16 +52,24 @@ The focus of this assignment is to practice writing **JUnit tests** for simple J
 
 ---
 
+## How to Run
+
+1. Open the project in your IDE (IntelliJ IDEA)
+2. Navigate to the `Main` class
+3. Locate the `main` method and click the green play button to **Run 'Main'** or use the terminal:
+    ```bash
+   mvn clean compile exec:java
+   ```
+   
 ## How to Run Tests
 
-1. Open the project in IntelliJ IDEA.
-2. Right-click on the `test` folder or any individual test class.
-3. Choose **Run 'All Tests'** or **Run 'CalculatorTest'**, etc.
+1. Right-click on the `test` folder or any individual test class.
+2. Click the green play button to **Run 'All Tests'** or to **Run 'CalculatorTest'**, etc.
    or
    Open a terminal in the root of the project and run:
 
 ```bash
-./mvnw test
+mvn test
 ```
 
 ## Credits
